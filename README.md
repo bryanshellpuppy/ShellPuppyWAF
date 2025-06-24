@@ -85,25 +85,4 @@ require_once __DIR__ . '/waf/firewall.php';
 WAF::init();
 Set up your config
 
-Copy waf/config-sample.json to waf/config.json
-
-Adjust settings as needed (admin password, patterns, etc.)
-
-Protect your admin panel
-
-Use a strong password
-
-Consider restricting admin panel by IP or VPN
-
-🛡️ Why Use ShellPuppy WAF?
-Simple: Easy install—no Composer, no system dependencies.
-
-Free & Open: MIT licensed, no tracking, no license keys.
-
-Modern: Responsive UI, fast AJAX log viewer, easy updates.
-
-Customizable: Fully editable config, pattern lists, and blocklists.
-
-No Vendor Lock-in: Works with any PHP site.
-
-📚 Documentation
+Adjust waf/config.json settings as needed (admin password, patterns, etc.)
