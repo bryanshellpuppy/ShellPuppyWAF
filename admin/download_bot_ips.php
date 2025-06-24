@@ -25,7 +25,7 @@ if (!isset($_SESSION['waf_admin'])) {
     echo json_encode(['success' => false, 'error' => 'Not authorized']);
     exit;
 }
-
+// you can change this to a list you want to grab. Github hosts a bunch of lists.
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && $_POST['action'] === 'download') {
     $url = "https://raw.githubusercontent.com/antoinevastel/avastel-bot-ips-lists/refs/heads/master/avastel-proxy-bot-ips-1day.txt";
     $data = @file_get_contents($url);
