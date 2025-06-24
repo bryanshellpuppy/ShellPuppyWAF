@@ -7,10 +7,6 @@ Take note of the log directory that needs to be writable.
 
 Add the following to your header on pages you want to run the waf code.
 
-<?php
-define('__ROOT__', dirname(dirname(__FILE__)));
-require_once(__ROOT__.'/waf/firewall.php');
-WAF::init();
-?>
+(exampleapp.php code)
 
 You may need to adjust the include directory depending on what your server supports.
