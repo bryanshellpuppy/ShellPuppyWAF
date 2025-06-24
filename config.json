@@ -1,0 +1,27 @@
+{
+    "admin_password": "changeme",
+    "blocked_ips": [
+        "1.2.3.4"
+    ],
+    "whitelisted_ips": [
+        "127.0.0.1",
+        "10.0.0.0\/8"
+    ],
+    "blocked_agents": [
+        "curl",
+        "sqlmap"
+    ],
+    "sql_patterns": [
+        "union select",
+        "select *",
+        "insert into",
+        "drop table"
+    ],
+    "xss_patterns": [
+        "<script"
+    ],
+    "rate_limit": 500,
+    "rate_window_seconds": 600,
+    "captcha_enabled": false,
+    "captcha_frequency": 20
+}
