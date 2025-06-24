@@ -72,7 +72,7 @@ No Vendor Lock-in: Works with any PHP site.
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/shellpuppy/php-waf.git
+   git clone https://github.com/bryanshellpuppy/ShellPuppyWAF.git
    cd php-waf
 
    Include the WAF in your application by following code in the exampleapp.php.
