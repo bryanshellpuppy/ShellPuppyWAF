@@ -53,7 +53,7 @@ A PHP WAF written from a clean approach rather than using some of the older meth
 ## 🖥️ Screenshots
 
 <p align="center">
-  <img src="docs/admin.png" alt="Admin Panel" width="70%"/>
+  <img src="admin.png" alt="Admin Panel" width="70%"/>
   <br>
   <em>Modern, responsive admin panel</em>
 </p>
