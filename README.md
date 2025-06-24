@@ -11,6 +11,14 @@ A PHP WAF written from a clean approach rather than using some of the older meth
 > **ShellPuppy WAF** is a free, open-source PHP Web Application Firewall to help secure your web applications and APIs from common web threats, bots, abuse, and intrusion—easy to set up, highly configurable, and privacy-friendly.
 
 ---
+🛡️ Why Use ShellPuppy WAF?
+Simple: Easy install—no Composer, no system dependencies.
+Free & Open: MIT licensed, no tracking, no license keys.
+Modern: Responsive UI, fast AJAX log viewer, easy updates.
+Customizable: Fully editable config, pattern lists, and blocklists.
+No Vendor Lock-in: Works with any PHP site.
+
+---
 
 ## 🚀 Features
 
