@@ -75,14 +75,6 @@ No Vendor Lock-in: Works with any PHP site.
    git clone https://github.com/shellpuppy/php-waf.git
    cd php-waf
 
-   Include the WAF in your application
-Add at the top of each protected PHP file:
-
-php
-Copy
-Edit
-require_once __DIR__ . '/waf/firewall.php';
-WAF::init();
-Set up your config
+   Include the WAF in your application by following code in the exampleapp.php.
 
 Adjust waf/config.json settings as needed (admin password, patterns, etc.)
